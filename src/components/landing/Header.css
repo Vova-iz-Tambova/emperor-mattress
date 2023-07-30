@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Roboto Condenced';
+    font-family: 'Roboto Condensed';
     src: url(../../fonts/Robotocondensed.woff) format('woff');
 }
 
@@ -7,7 +7,7 @@
     text-align: center;
     color: #fff;
     font-size: 40px;
-    font-family: 'Roboto Condenced', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     max-width: 220px;
     margin: 0 auto 58px;
     text-transform: uppercase;

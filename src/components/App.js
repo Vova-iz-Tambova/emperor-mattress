@@ -1,6 +1,7 @@
-import React from 'react'; 
-import Header from './landing/Header'; // прошу любить и жаловать компонент header
-import Bed from './landing/Bed' // и окажите компоненту bed тёплый приём
+import React from 'react';
+import Header from './landing/Header';
+import Bed from './landing/Bed';
+import InfoForm from './landing/InfoForm';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Bed />
+      <InfoForm />
     </div>
   );
 }
