@@ -1,11 +1,12 @@
-// компонент Header теперь в Header.js
-
-import React from 'react';
-import './Header.css' // импортируем CSS-файл
+import React, { useContext } from 'react';
+import {TranslationContext} from '../../contexts/translation/TranslationContext';
+import './Header.css';
 
 function Header() {
+  const translation = useContext(TranslationContext);
+
   return (
-    <h1 className="header-title">Империя матрасов</h1> // применяем класс
+    <h1 className="header-title">{translation.title}</h1>
   );
 }
 
